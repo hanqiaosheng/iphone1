@@ -1,0 +1,379 @@
+*{0
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: "苹方",“微软雅黑”;
+}
+
+nav{
+	width: 100%;
+	height: 44px;
+	background: black;
+}
+.navbox{
+	width: 1000px;
+	height: 100%;
+	background: #000;
+	margin: 0 auto;
+}
+.navbox .content li{
+   color: white;
+   display: inline-block;
+}
+.navbox .content{
+	text-align: justify;
+    line-height: 44px;
+}
+.navbox .content:after{
+	content:"";
+	display: inline-block;
+	width: 100%;
+}
+.navbox .con{
+	width: 100%;
+	height: 44px;
+	display: none;
+}
+.navbox li.con{
+	width: 33.33%;
+	height: 44px;
+	float: left;
+	text-align: center;
+	line-height: 44px;
+}
+
+ .content1 li:nth-child(1){
+	text-align: left;
+}
+.content1 li:nth-child(3){
+	text-align: right;
+}
+@media screen and (max-width:1060px){
+	.navbox{
+		width: 100%;
+		height: 44px;
+		box-sizing: border-box;
+		padding: 0 15px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	.navbox{
+		width: 100%;
+
+	}
+	.navbox .con{
+	width: 100%;
+	height: 44px;
+	display: block;
+}
+.navbox .content{
+	display: none;
+}
+	.nvbox li:nth-child(2){
+		display: none;
+	}
+
+}
+
+  a{
+	font-size: 14px;
+	color: #fff;
+}
+.content a:hover{
+	color: #969696;
+}
+.content1 a:hover{
+	color: #969696;
+}
+.iconfont {
+	font-size: 20px;
+}
+.banner{
+	height: 600px;
+	width: 100%;
+	background: #f2f2f2;
+	background-image: url('../iphone/img/watch_large.jpg');
+	background-size: contain;     /* 等比例缩小 */
+	background-repeat: no-repeat;  /* 不重复 */
+  	background-position: center ;   /* 居中（X, Y) */
+}
+.banner1{
+	width: 100%;
+	height: 52px;
+	background: #f2f2f2;
+	background-image: url('../iphone/img/watch_logo_large.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+.wenzi{
+	width: 100%;
+	height: 52px;
+	background: #f2f2f2;
+	font-size: 32px;
+	text-align: center;
+    line-height: 52px;
+     overflow: hidden;
+}
+
+
+.applebox{
+	width: 100%;
+	height: 200px;
+	background: red;
+}
+.applebox li{
+	width: 25%;
+	height: 200px;
+	float: left;
+	border: 2px solid  #fff;
+	box-sizing: border-box;
+}
+.bigbox{
+	width: 980px;
+	margin: 0 auto;
+	box-sizing: border-box;
+} 
+.box1{
+	font-size: 12px;
+	color: #888888;
+	 border-bottom: 1px solid#D6D6D6;
+	 margin-top: 20px;
+}
+
+.box2{
+   
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.quchu{
+	clear: both;
+}
+.boxson{
+    width: 20%;
+    float: left;
+    background: #fff;
+}
+h1{
+	font-size: 12px;
+	color: #333;
+	margin: 0;
+}
+.boxson ul{
+	margin: 0;
+}
+.boxson a{
+	font-size: 12px;
+	color: #626262;
+}
+.box3 li{
+    	width: 100%;
+    	height: 38px;
+        background: #fff;
+        border-bottom: 1px solid#D6D6D6;
+}
+
+ .box3 span{
+    	float: right;
+    	color: black;
+    	line-height: 38px;
+    }
+.box3 a{
+	font-size: 14px;
+	color: black;
+	line-height: 38px;
+}
+.box3{
+	display: none;
+	box-sizing: border-box;
+}
+
+.xia{ 
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 12px;
+	color: #888888;
+}
+span{
+	font-size: 12px;
+	color: #0070c9;
+}
+.zuo{
+	font-size: 12px;
+	color: #888888;
+	float: left;
+}
+.you li a{
+	font-size: 12px;
+	color: #888888;
+	float: left;
+	margin-left: 20px;
+	padding-right: 20px;
+}
+.you a:nth-child(1),.you a:nth-child(2),.you a:nth-child(3){
+	border-right: 1px solid #888888;
+
+}
+
+
+
+
+
+
+.applebox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+    border-right: 0;          
+}
+.applebox li:nth-child(1),li:nth-child(2),{
+    border-bottom: 0;          
+}
+.applebox li:nth-child(1){
+ background-image: url('../iphone/img/wwdc17_large.jpg');
+ background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(2){
+	background-image: url('../iphone/img/macbook_pro_large.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(3){
+ background-image: url('../iphone/img/accessories_large.jpg');
+ background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(4){
+	background-image: url('../iphone/img/ipad_large.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+@media screen  and (max-width: 1050px ){
+	.applebox li{
+		width:50%; 
+		background: red;
+	}
+	.applebox{
+		height:400px;
+	}
+	.banner{
+	height: 450px;
+	width: 100%;
+	background-image: url('../iphone/img/watch_medium.jpg')
+	
+}
+.bigbox{
+	width: 100%;
+	padding-left: 20px;
+ }
+ .boxson{
+	width: 20%;
+ }
+.box2{
+	width: 100%;
+}
+.box3 {
+    	display:none;
+    } 
+.applebox li:nth-child(1){
+ background-image: url('../iphone/img/wwdc17_medium.jpg');	
+ background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+.applebox li:nth-child(2){
+	background-image: url('../iphone/img/macbook_pro_medium.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(3){
+ background-image: url('../iphone/img/accessories_medium.jpg');
+ background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(4){
+
+	background-image: url('../iphone/img/ipad_medium.jpg');	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+.banner1{
+	width: 100%;
+	height: 45px;
+	background: #f2f2f2;
+	background-image: url('../iphone/img/watch_logo_large.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+}
+@media screen  and (max-width: 700px){
+	.applebox li{
+		width: 100%;
+		background: yellow;
+	}
+	.applebox{
+		height: 800px;
+	}
+	.banner{
+	height: 400px;
+	width: 100%;
+	background-image: url('../iphone/img/watch_small.jpg')
+}
+.applebox li:nth-child(1){
+ background-image: url('../iphone/img/wwdc17_small.jpg');
+ background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(2){
+	background-image: url('../iphone/img/macbook_pro_small.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.applebox li:nth-child(3){
+ background-image: url('../iphone/img/accessories_small.jpg');	
+ background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+.applebox li:nth-child(4){
+	background-image: url('../iphone/img/ipad_small.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center ;	
+}
+.banner1{
+	width: 100%;
+	height: 38px;
+	background: #f2f2f2;
+	background-image: url('../iphone/img/watch_logo_small.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center ;
+}
+.boxson{
+	
+    	display: none;
+    }
+
+ .box2{
+    width: 100%;
+} 
+
+ .box3{
+ 	display: block;
+ 	padding-left: 20px;
+ }
+}
+
+
+
